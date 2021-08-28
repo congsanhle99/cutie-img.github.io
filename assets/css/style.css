@@ -1,0 +1,23 @@
+.title {
+    text-align: center;
+}
+
+.wrap {
+    justify-content: space-evenly;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.image .img {
+    width: 240px;
+    min-height: 120px;
+    max-height: auto;
+    float: left;
+    margin: 3px;
+    padding: 3px;
+    background-size: contain;
+}
